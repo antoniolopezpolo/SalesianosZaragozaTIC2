@@ -1,0 +1,26 @@
+#include<iostream>
+#include<stdlib.h>
+#include<time.h>
+
+
+int main(){
+  int fil,col;
+  int matriz[3][3];
+  int salir;
+  for(fil=0;fil<3;fil++){
+     for(col=0;fcol<3;col++){
+      matriz[fil][col]=rand()%2;
+    }
+  }
+  for(fil=0;fil<3;fil++){
+     for(col=0;fcol<3;col++){
+      std::cout<< matriz[fil][col]<<" ";
+    }
+    std::cout<< "\n";
+  }
+  std::cint>> salir;
+  return 0;
+
+
+
+}
