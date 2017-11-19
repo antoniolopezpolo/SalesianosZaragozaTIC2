@@ -1,0 +1,7 @@
+Hacer un programa que reciba un número de varias cifras y muestre un menú como el que sigue:
+1. Devuelve la suma de sus cifras pares
+2. Devuelve la suma de sus cifras impares
+3. Devuelve la mayor de sus cifras
+4. Devuelve un número con las mismas cifras ordenadas de menor a mayor
+
+No vale utilizar strings, hay que tratar los números como números
