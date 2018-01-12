@@ -8,7 +8,7 @@ int main(){
     string nombre;
     int salir;
     int repetir=0;
-    ifstream fichero;
+    ifstream fichero;//Esta es la línea clave. Al declarar aquí el fichero, hacemos que sea "reconocible" en todo el programa
     
     cout<<"Dime la ruta del fichero: ";
     getline(cin,nombre);  
