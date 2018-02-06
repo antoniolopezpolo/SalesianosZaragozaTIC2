@@ -19,7 +19,16 @@ int main(){
     } 
    //Mostramos el vector por pantalla
     for(int cont=0;cont<5;cont++){
-       cout<<vect_t[cont];     
+       if(cont==0){
+         cout<< "["<<vect_t[cont]<<",";
+       }
+       if(cont==4){
+         cout<< vect_t[cont]<<"]";
+       }
+       if(cont!=0 && cont!=4){
+         cout<< vect_t[cont]<<",";
+       }
+            
     }
      
     cout<<"Presiona para salir y luego ENTER";

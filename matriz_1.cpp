@@ -1,8 +1,16 @@
+//Matrices
 #include<iostream>
 using namespace std;
 int main(){
-    int matriz_1[2][2]; 
-    int matriz_2[2][2]; 
-    int matriz_suma[2][2];  
-     
+    int matriz[3][3];
+    int fila,col;
+    for(fila=0;fila<3;fila++){
+       for(col=0;col<3;col++){
+         cout<<"matriz["<<fila<<"][";
+         cout<<col<<"]";
+         cin>>matriz[fila][col]; 
+       }
+    }
+    cout<<endl<<"Hemos acabado";
+    return 0;
 }
